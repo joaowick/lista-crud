@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
-import { Produto } from '../modal/produto';
+import { Produto } from '../../model/produto';
 import { tap, catchError } from 'rxjs/operators';
 
 const httpOptions = {
