@@ -9,7 +9,7 @@ import { ApiService } from '../service/api.service'
 })
 export class ProdutosComponent implements OnInit {
 
-  displayColumns: string[] = ['nome', 'desc', 'preco', 'acao'];
+  displayedColumns: string[] = ['nome', 'desc', 'preco', 'acao'];
   dataSource: Produto[];
   isLoadingResults: boolean;
 
